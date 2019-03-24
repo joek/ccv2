@@ -424,7 +424,12 @@
             {
                 "name": "odata2webservices",
                 "contextPath": "/odata2webservices"
+            },
+            {
+                "name" : "adminapi",
+                "contextPath": "/adminapi"
             }
+
         ]
     }
     ],
