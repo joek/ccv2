@@ -1,7 +1,8 @@
 {
-    "commerceSuiteVersion": "1905.0",
+    "commerceSuiteVersion": "1811.1",
     "extensions": [
         "kymaintegrationbackoffice",
+        "kymaintegrationsampledata",
         "assistedserviceyprofileaddon",
         "assistedservicecustomerinterestsaddon",
         "assistedservicepromotionaddon",
@@ -26,6 +27,8 @@
         "assistedservicewebservices",
         "customersupportbackoffice",
         "profileservices",
+        "yaasconfigurationbackoffice",
+        "yaasconfiguration",
         "textfieldconfiguratortemplatebackoffice",
         "cmswebservices",
         "smarteditwebservices",
@@ -50,6 +53,7 @@
         "personalizationsearchsmartedit",
         "personalizationsearchweb",
         "configurablebundlecockpits",
+        "xyformscockpits",
         "xyformsbackoffice",
         "xyformsstorefrontcommons",
         "xyformssamples",
