@@ -1,87 +1,70 @@
 {
     "commerceSuiteVersion": "1905.0",
     "extensions": [
-        "kymaintegrationbackoffice",
-        "assistedserviceyprofileaddon",
-        "assistedservicecustomerinterestsaddon",
-        "assistedservicepromotionaddon",
-        "profiletagaddon",
         "adaptivesearchsolr",
         "adaptivesearchbackoffice",
-        "adaptivesearchwebservices",
-        "commerceservicesbackoffice",
+        "b2bcommercebackoffice",
         "solrfacetsearchbackoffice",
-        "solrserver",
-        "yacceleratorcockpits",
+        "yacceleratorbackoffice",
         "yacceleratorinitialdata",
         "yacceleratorfulfilmentprocess",
         "yacceleratorstorefront",
         "ycommercewebservices",
+        "ycommercewebservicestest",
+        "apparelstore",
         "electronicsstore",
+        "powertoolsstore",
+        "solrserver",
+        "acceleratorwebservicesaddon",
+        "b2bacceleratoraddon",
+        "commerceorgaddon",
+        "commerceorgsamplesaddon",
+        "orderselfserviceaddon",
+        "assistedservicestorefront",
+        "customerticketingaddon",
+        "customersupportbackoffice",
         "rulebuilderbackoffice",
         "couponbackoffice",
         "droolsruleengineservices",
         "couponfacades",
-        "assistedservicestorefront",
-        "assistedservicewebservices",
-        "customersupportbackoffice",
-        "profileservices",
+        "couponservices",
+        "promotionenginesamplesaddon",
         "textfieldconfiguratortemplatebackoffice",
+        "textfieldconfiguratortemplateaddon",
         "cmswebservices",
         "smarteditwebservices",
-        "cmssmarteditwebservices",
         "permissionswebservices",
-        "cmssmartedit",
-        "cmsbackoffice",
-        "consignmenttrackingmock",
-        "consignmenttrackingbackoffice",
-        "previewpersonalizationweb",
-        "personalizationcmsweb",
-        "personalizationsmartedit",
-        "personalizationpromotionssmartedit",
-        "personalizationyprofile",
-        "personalizationpromotions",
-        "personalizationpromotionsweb",
-        "personalizationservicesbackoffice",
-        "personalizationpromotionsbackoffice",
-        "personalizationcmsbackoffice",
-        "personalizationintegrationbackoffice",
-        "personalizationsearchbackoffice",
-        "personalizationsearchsmartedit",
-        "personalizationsearchweb",
-        "configurablebundlecockpits",
-        "xyformsbackoffice",
-        "xyformsstorefrontcommons",
-        "xyformssamples",
-        "xyformsweb",
-        "platformbackoffice",
-        "orbeonweb",   
-        "commerceorgsamplesaddon",
-        "promotionenginesamplesaddon",
-        "hybrisanalyticsaddon",
-        "customerticketingaddon",
         "smarteditaddon",
-        "textfieldconfiguratortemplateaddon",
-        "consignmenttrackingaddon",
-        "notificationaddon",
-        "customerinterestsaddon",
-        "orderselfserviceaddon",
-        "adaptivesearchsamplesaddon",
-        "configurablebundleaddon",
-        "pcmbackofficesamplesaddon",
-        "b2cangularaddon",
-        "personalizationsearchsamplesaddon",
-        "personalizationyprofilesampledataaddon",
-        "eventtrackingwsaddon",
-        "oauth2",
-        "modeltacceleratorservices",
-        "azurecloudhotfolder",
+        "cmssmartedit",
+        "previewwebservices",
+        "cmssmarteditwebservices",
         "cmsoccaddon",
-        "odata2webservices",
+        "pcmbackofficesamplesaddon",
+        "secureportaladdon",
+        "datahubbackoffice",
+        "sapcoreaddon",
+        "sapcoreconfigurationbackoffice",
+        "sapmodelbackoffice",
+        "sapcustomerb2bbackoffice",
+        "b2bsappricing",
+        "sappricingbackoffice",
+        "ysaporderfulfillment",
+        "saporderexchangeb2b",
+        "saporderexchangebackoffice",
+        "ysapordermgmtb2baddon",
+        "sapordermgmtbackoffice",
+        "b2bsapproductavailability",
+        "sapproductavailabilitybackoffice",
+        "sapcreditcheckbackoffice",
+        "sapcoretest",
+        "sapreturnsexchange",
+        "sapreturnsexchangeb2b",
+        "ysaperpreturnprocess",
         "outboundservices",
-        "integrationservices",
-        "integrationbackoffice",
-        "adminapi"
+        "odata2webservices",
+        "odata2webservicesfeaturetests",
+        "kymaintegrationbackoffice",
+        "yb2bacceleratorstorefront"
     ],
     "properties": [
         {
@@ -171,6 +154,138 @@
             "template": "yacceleratorstorefront"
         },
         {
+            "addon": "assistedservicestorefront",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapcoreaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapcoreaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        
+        {
+            "addon": "b2bacceleratoraddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "ysapordermgmtb2baddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "secureportaladdon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        
+        {
+            "addon": "acceleratorwebservicesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "cmsoccaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "ycommercewebservices"
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
             "addon": "assistedservicecustomerinterestsaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
@@ -252,11 +367,6 @@
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "b2cangularaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
