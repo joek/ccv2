@@ -86,7 +86,9 @@
       "yacceleratorordermanagement",
       "yacceleratorstorefront",
       "ycommercewebservices",
-      "ycommercewebservicestest"
+      "ycommercewebservicestest",
+      "commercewebservicesdata",
+      "spacceleratorsamplesaddon"
     ],
     "properties": [
       {
@@ -108,6 +110,14 @@
       {
         "key": "assistedservicestorefront.css.paths.mobile",
         "value": "/responsive/common/css/assistedservicestorefront.css;/responsive/common/css/storeFinder.css;/responsive/common/css/customer360.css"
+      },
+      {
+          "key": "corsfilter.acceleratorservices.allowedOrigins",
+          "value": "*"
+      },
+      {
+          "key": "corsfilter.ycommercewebservices.allowedOrigins",
+          "value": "*"
       }
     ],
     "storeFrontExtension": "yacceleratorstorefront",
