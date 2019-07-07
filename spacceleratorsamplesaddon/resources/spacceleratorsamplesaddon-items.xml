@@ -20,7 +20,7 @@
  		<typegroup name="Components">
 
 		 	<!-- these types are not included in 1811 -->
-			<itemtype code="CMSSiteContextComponent" autocreate="true"
+			<!-- <itemtype code="CMSSiteContextComponent" autocreate="true"
 				generate="true" extends="SimpleCMSComponent"
 				jaloclass="de.hybris.platform.spacceleratorsamplesaddon.jalo.components.SiteContextSelectorComponent">
 				<description>A component for site context selector</description>
@@ -46,7 +46,7 @@
 					</attribute>
 
 				</attributes>
-			</itemtype>
+			</itemtype> -->
 		</typegroup>
 	</itemtypes>
 	
