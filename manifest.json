@@ -238,7 +238,12 @@
         "addon": "personalizationaddon",
         "storefront": "yacceleratorstorefront",
         "template": "yacceleratorstorefront"
-      }
+      },
+      {
+            "addon": "spacceleratorsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+       }
     ],
     "aspects": [
       {
